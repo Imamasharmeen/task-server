@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: [ "https://task-management-app-client-pi.vercel.app"],
+    origin: [ "https://celadon-phoenix-51855d.netlify.app"],
     methods: ["GET", "POST"], 
     credentials: true, 
   },
